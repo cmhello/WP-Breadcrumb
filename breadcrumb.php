@@ -15,7 +15,7 @@ function get_breadcrumb($custom_args=Array()) {
         'container' => '<nav class="breadcrumb"><ol itemscope itemtype="http://schema.org/BreadcrumbList">%s</ol></nav>'
     );
 
-    if (function_exists('get_text_domain') && $args['text_domain'] != '')
+    if (function_exists('get_text_domain') && $args['text_domain'] == '')
         $args['text_domain'] = get_text_domain();
 
     if (is_array($custom_args))
