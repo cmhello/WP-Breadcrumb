@@ -1,0 +1,23 @@
+{
+  "name": "wp_breadcrumb",
+  "version": "1.0.4",
+  "description": "Wordpress Breadcrumb",
+  "main": "breadcrumb.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w1nte/wp_breadcrumb.git"
+  },
+  "keywords": [
+    "breadcrumb",
+    "wordpress"
+  ],
+  "author": "w1nte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w1nte/wp_breadcrumb/issues"
+  },
+  "homepage": "https://github.com/w1nte/wp_breadcrumb#readme"
+}
