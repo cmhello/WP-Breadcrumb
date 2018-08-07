@@ -1,0 +1,15 @@
+{
+  "name": "w1nte/wp_breadcrumb",
+  "description": "Wordpress Breadcrumb",
+  "homepage": "https://github.com/w1nte/wp_breadcrumb#readme",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Winterspacher"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.0"
+  }
+}
