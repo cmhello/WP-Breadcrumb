@@ -15,11 +15,20 @@ Wordpress Breadcrumb Script for your Wordpress Theme.
 Add the package to your project's `composer.json`. Visit [getcomposer.org](http://getcomposer.org/) for more information.
 ```json
 {
+    "repositories": [
+        {
+            "url": "https://github.com/w1nte/wp_breadcrumb.git",
+            "type": "git"
+        }
+    ],
     "require": {
         "w1nte/wp_breadcrumb": "dev-master"
     }
 }
 ```
+
+##### Install with NPM
+Install the package with `npm install w1nte/wp_breadcrumb`.
 
 ##### Install Manually
 Download and include the file into your themes `functions.php`
@@ -88,6 +97,7 @@ function breadcrumb_html($html) {
 }
 add_filter("breadcrumb_html", "breadcrumb_html", 10, 1);
 ```
+
 
 
 ## Example Result
