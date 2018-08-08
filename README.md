@@ -22,7 +22,7 @@ Add the package to your project's `composer.json`. Visit [getcomposer.org](http:
         }
     ],
     "require": {
-        "w1nte/wp_breadcrumb": "dev-master"
+        "w1nte/WP-Breadcrumb": "dev-master"
     }
 }
 ```
