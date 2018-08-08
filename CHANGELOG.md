@@ -1,4 +1,4 @@
-#Changelog
+##Changelog
 
 ##### v1.0.4 July 8th, 2018
 * release on github
