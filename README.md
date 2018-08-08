@@ -28,7 +28,7 @@ Add the package to your project's `composer.json`. Visit [getcomposer.org](http:
 ```
 #
 ##### Install with NPM
-Install the package with `npm install w1nte/wp_breadcrumb`.
+Install the package with `npm install w1nte/WP-Breadcrumb`.
 #
 ##### Install Manually
 Download and include the file into your themes `functions.php`
