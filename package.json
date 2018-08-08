@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/w1nte/wp_breadcrumb.git"
+    "url": "git+https://github.com/w1nte/WP-Breadcrumb.git"
   },
   "keywords": [
     "breadcrumb",
@@ -17,7 +17,7 @@
   "author": "w1nte",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/w1nte/wp_breadcrumb/issues"
+    "url": "https://github.com/w1nte/WP-Breadcrumb/issues"
   },
-  "homepage": "https://github.com/w1nte/wp_breadcrumb#readme"
+  "homepage": "https://github.com/w1nte/WP-Breadcrumb#readme"
 }

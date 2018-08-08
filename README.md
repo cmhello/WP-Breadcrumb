@@ -22,13 +22,13 @@ Add the package to your project's `composer.json`. Visit [getcomposer.org](http:
         }
     ],
     "require": {
-        "w1nte/WP-Breadcrumb": "dev-master"
+        "w1nte/wp_breadcrumb": "dev-master"
     }
 }
 ```
 #
 ##### Install with NPM
-Install the package with `npm install w1nte/WP-Breadcrumb`.
+Install the package with `npm install w1nte/wp_breadcrumb`.
 #
 ##### Install Manually
 Download and include the file into your themes `functions.php`
@@ -99,7 +99,6 @@ add_filter("breadcrumb_html", "breadcrumb_html", 10, 1);
 ```
 
 
-
 ## Example Result
 ```html
 <nav class="breadcrumb">
@@ -119,7 +118,7 @@ add_filter("breadcrumb_html", "breadcrumb_html", 10, 1);
 
 
 ## Requirements
-Tested with Wordpress > 4.9
+Tested with Wordpress > 4.9 and PHP > 5.6.x
 
 
 ## License
