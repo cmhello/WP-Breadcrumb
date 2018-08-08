@@ -11,7 +11,7 @@ Wordpress Breadcrumb Script for your Wordpress Theme.
 
 ## Getting Started
 
-##### Install with Composer
+#### Download with Composer
 Add the package to your project's `composer.json`. Visit [getcomposer.org](http://getcomposer.org/) for more information.
 ```json
 {
@@ -26,18 +26,15 @@ Add the package to your project's `composer.json`. Visit [getcomposer.org](http:
     }
 }
 ```
-#
-##### Install with NPM
+#### Download with NPM
 Install the package with `npm install w1nte/WP-Breadcrumb`.
-#
-##### Install Manually
-Download and include the file into your themes `functions.php`
+
+## Usage
+##### Installation
+Include the file into your themes `functions.php`
 ```php 
 include_once 'breadcrumb.php';
 ```
-
-
-## Usage
 ##### Basic usage
 Use `the_breadcrumb` to display the breadcrumb in your template.
 ```php
@@ -99,7 +96,7 @@ add_filter("breadcrumb_html", "breadcrumb_html", 10, 1);
 ```
 
 
-## Example Result
+## Example Output
 ```html
 <nav class="breadcrumb">
     <ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
